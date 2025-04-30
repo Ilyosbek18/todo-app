@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoLuxe | Zamonaviy Avtomobil Savdo Markazi</title>
+    <link rel="stylesheet" href="style.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Preloader -->
+<div class="preloader">
+    <div class="car-loader">
+        <i class="fas fa-car"></i>
+    </div>
+</div>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>Auto<span>Luxe</span></h1>
+        </div>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Bosh sahifa</a></li>
+                <li><a href="#models">Modellar</a></li>
+                <li><a href="#features">Xususiyatlar</a></li>
+                <li><a href="#gallery">Galereya</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1 class="animate-text">Orzu avtomobilingizni <span>3D</span> formatda ko'ring</h1>
+        <p class="animate-text delay-1">Zamonaviy texnologiyalar yordamida avtomobillarni yangicha kashf eting</p>
+        <div class="hero-buttons animate-text delay-2">
+            <a href="#models" class="btn primary">Modellarni ko'rish</a>
+            <a href="#contact" class="btn secondary">Bog'lanish</a>
+        </div>
+    </div>
+    <div class="hero-car">
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Luxury Car">
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div class="arrows">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Models Section -->
+<section id="models" class="models">
+    <div class="container">
+        <div class="section-header">
+            <h2>Premium Modellar</h2>
+            <p>Eng so'nggi va zamonaviy avtomobillar kolleksiyamiz</p>
+        </div>
+
+        <div class="model-tabs">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="luxury">Lyuks</button>
+                <button class="tab-btn" data-tab="sports">Sport</button>
+                <button class="tab-btn" data-tab="electric">Elektr</button>
+                <button class="tab-btn" data-tab="suv">SUV</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Luxury Cars Tab -->
+                <div class="tab-pane active" id="luxury">
+                    <div class="models-grid">
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mercedes S-Class">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Mercedes S-Class</h3>
+                                <div class="model-price">$110,000</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 429 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 4.9s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Audi A8">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Audi A8</h3>
+                                <div class="model-price">$86,500</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 335 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 5.6s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1556800572-1b8aeef2c54f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="BMW 7 Series">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>BMW 7 Series</h3>
+                                <div class="model-price">$93,300</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 375 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 5.3s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sports Cars Tab -->
+                <div class="tab-pane" id="sports">
+                    <div class="models-grid">
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Porsche 911">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Porsche 911</h3>
+                                <div class="model-price">$101,200</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 379 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 4.2s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="BMW M4">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>BMW M4</h3>
+                                <div class="model-price">$74,700</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 473 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 4.1s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Audi R8">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Audi R8</h3>
+                                <div class="model-price">$142,700</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 562 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 3.4s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electric Cars Tab -->
+                <div class="tab-pane" id="electric">
+                    <div class="models-grid">
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tesla Model S">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Tesla Model S</h3>
+                                <div class="model-price">$94,990</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 670 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 3.1s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1617704548623-340376564e68?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Porsche Taycan">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Porsche Taycan</h3>
+                                <div class="model-price">$82,700</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 402 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 5.4s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1619767886558-efdc7e9e5fa2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Audi e-tron GT">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Audi e-tron GT</h3>
+                                <div class="model-price">$102,400</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 469 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 3.9s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SUV Cars Tab -->
+                <div class="tab-pane" id="suv">
+                    <div class="models-grid">
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Audi Q8">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Audi Q8</h3>
+                                <div class="model-price">$70,300</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 335 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 5.6s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Porsche Cayenne">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>Porsche Cayenne</h3>
+                                <div class="model-price">$69,000</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 335 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 6.2s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+
+                        <div class="model-card">
+                            <div class="model-image">
+                                <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="BMW X7">
+                                <div class="model-overlay">
+                                    <a href="#" class="view-3d-btn">3D ko'rinish</a>
+                                </div>
+                            </div>
+                            <div class="model-info">
+                                <h3>BMW X7</h3>
+                                <div class="model-price">$74,900</div>
+                                <div class="model-specs">
+                                    <span><i class="fas fa-tachometer-alt"></i> 335 ot kuchi</span>
+                                    <span><i class="fas fa-road"></i> 0-100: 5.8s</span>
+                                </div>
+                                <a href="#" class="btn primary">Batafsil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 3D Showcase Section -->
+<section class="showcase">
+    <div class="container">
+        <div class="section-header">
+            <h2>3D Avtomobil Ko'rish</h2>
+            <p>Avtomobilni har tomondan ko'ring va rangini o'zgartiring</p>
+        </div>
+
+        <div class="showcase-container">
+            <div class="car-showcase">
+                <div class="car-3d-model" id="car-model">
+                    <div class="car-rotate">
+                        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="3D Car Model" id="car-image">
+                    </div>
+                </div>
+                <div class="car-controls">
+                    <div class="rotation-controls">
+                        <button id="rotate-left"><i class="fas fa-arrow-left"></i></button>
+                        <button id="rotate-right"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="color-controls">
+                        <button class="color-btn active" data-color="red" style="background-color: #e74c3c;"></button>
+                        <button class="color-btn" data-color="blue" style="background-color: #3498db;"></button>
+                        <button class="color-btn" data-color="black" style="background-color: #2c3e50;"></button>
+                        <button class="color-btn" data-color="white" style="background-color: #ecf0f1;"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-details">
+                <h3 id="car-name">Porsche 911 Carrera</h3>
+                <div class="car-price">$101,200</div>
+                <div class="car-specs">
+                    <div class="spec">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>379 ot kuchi</span>
+                    </div>
+                    <div class="spec">
+                        <i class="fas fa-bolt"></i>
+                        <span>0-100: 4.2s</span>
+                    </div>
+                    <div class="spec">
+                        <i class="fas fa-gas-pump"></i>
+                        <span>Yoqilg'i: 9.0L/100km</span>
+                    </div>
+                </div>
+                <p class="car-description">
+                    Porsche 911 Carrera - bu sport avtomobillar orasida afsona. Uning 3.0 litrli ikki turbinali olti silindrli dvigatel 379 ot kuchiga ega.
+                    8 tezlikli PDK transmissiya bilan jihozlangan bu avtomobil 0 dan 100 km/soatgacha atigi 4.2 soniyada erishadi.
+                </p>
+                <div class="car-actions">
+                    <a href="#" class="btn primary">Test-drayv</a>
+                    <a href="#" class="btn secondary">Batafsil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="container">
+        <div class="section-header">
+            <h2>Bizning Afzalliklarimiz</h2>
+            <p>Nima uchun mijozlar bizni tanlashadi</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Premium Avtomobillar</h3>
+                <p>Faqat eng yuqori sifatli va zamonaviy avtomobillar kolleksiyasi</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Professional Servis</h3>
+                <p>Malakali mutaxassislar tomonidan yuqori sifatli xizmat ko'rsatish</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Kafolat</h3>
+                <p>Barcha avtomobillar uchun kengaytirilgan kafolat va qo'llab-quvvatlash</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <h3>Qulay Moliyalashtirish</h3>
+                <p>Moslashuvchan to'lov rejalari va qulay kredit shartlari</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+                <h3>Trade-in</h3>
+                <p>Eski avtomobilingizni yangi avtomobilga almashtirish imkoniyati</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Qo'llab-quvvatlash</h3>
+                <p>Har qanday savolingizga javob berish uchun doimo tayyormiz</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2>Avtomobil Galereyasi</h2>
+            <p>Eng chiroyli avtomobillarimiz kolleksiyasi</p>
+        </div>
+
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">Hammasi</button>
+            <button class="filter-btn" data-filter="luxury">Lyuks</button>
+            <button class="filter-btn" data-filter="sports">Sport</button>
+            <button class="filter-btn" data-filter="electric">Elektr</button>
+            <button class="filter-btn" data-filter="suv">SUV</button>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="luxury">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mercedes S-Class">
+                    <div class="gallery-overlay">
+                        <h3>Mercedes S-Class</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="sports">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Porsche 911">
+                    <div class="gallery-overlay">
+                        <h3>Porsche 911</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="electric">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tesla Model S">
+                    <div class="gallery-overlay">
+                        <h3>Tesla Model S</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="suv">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Audi Q8">
+                    <div class="gallery-overlay">
+                        <h3>Audi Q8</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="sports">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="BMW M4">
+                    <div class="gallery-overlay">
+                        <h3>BMW M4</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="luxury">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Audi A8">
+                    <div class="gallery-overlay">
+                        <h3>Audi A8</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="electric">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1617704548623-340376564e68?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Porsche Taycan">
+                    <div class="gallery-overlay">
+                        <h3>Porsche Taycan</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="suv">
+                <div class="gallery-image">
+                    <img src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Porsche Cayenne">
+                    <div class="gallery-overlay">
+                        <h3>Porsche Cayenne</h3>
+                        <a href="#" class="gallery-link"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2>Mijozlar Fikrlari</h2>
+            <p>Mijozlarimiz biz haqimizda nima deyishadi</p>
+        </div>
+
+        <div class="testimonials-slider">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"AutoLuxe'dan Porsche 911 sotib olish tajribam ajoyib bo'ldi. Ularning 3D ko'rinish texnologiyasi menga avtomobilni sotib olishdan oldin har tomondan ko'rishimga yordam berdi."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonial Author">
+                    <div class="author-info">
+                        <h4>Akmal Karimov</h4>
+                        <p>Toshkent</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"Men uchun eng muhimi - bu ishonchli servis. AutoLuxe'da men nafaqat yuqori sifatli avtomobil, balki ajoyib mijozlarni qo'llab-quvvatlash xizmatini ham oldim."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Testimonial Author">
+                    <div class="author-info">
+                        <h4>Nilufar Azimova</h4>
+                        <p>Samarqand</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <p>"Ularning moliyalashtirish shartlari juda qulay. Men BMW X7 sotib olishni orzu qilardim va AutoLuxe menga bu orzuni amalga oshirishga yordam berdi."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Testimonial Author">
+                    <div class="author-info">
+                        <h4>Bobur Rahimov</h4>
+                        <p>Buxoro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Biz bilan bog'laning</h2>
+            <p>Savollaringiz bormi? Biz bilan bog'laning</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Manzil</h4>
+                        <p>Toshkent sh., Amir Temur ko'chasi, 108-uy</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Telefon</h4>
+                        <p>+998 71 123 45 67</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@autoluxe.uz</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h4>Ish vaqti</h4>
+                        <p>Dushanba - Shanba: 9:00 - 18:00</p>
+                        <p>Yakshanba: Dam olish kuni</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ism</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Mavzu</label>
+                        <select id="subject">
+                            <option value="inquiry">Umumiy so'rov</option>
+                            <option value="test-drive">Test-drayv</option>
+                            <option value="financing">Moliyalashtirish</option>
+                            <option value="service">Servis</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Xabar</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Auto<span>Luxe</span></h2>
+                <p>Premium avtomobillar savdo markazi</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Tezkor havolalar</h3>
+                    <ul>
+                        <li><a href="#home">Bosh sahifa</a></li>
+                        <li><a href="#models">Modellar</a></li>
+                        <li><a href="#features">Xususiyatlar</a></li>
+                        <li><a href="#gallery">Galereya</a></li>
+                        <li><a href="#contact">Aloqa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Xizmatlar</h3>
+                    <ul>
+                        <li><a href="#">Moliyalashtirish</a></li>
+                        <li><a href="#">Servis</a></li>
+                        <li><a href="#">Kafolat</a></li>
+                        <li><a href="#">Trade-in</a></li>
+                        <li><a href="#">Test-drayv</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Huquqiy</h3>
+                    <ul>
+                        <li><a href="#">Maxfiylik siyosati</a></li>
+                        <li><a href="#">Foydalanish shartlari</a></li>
+                        <li><a href="#">Cookie siyosati</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 AutoLuxe. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal" id="gallery-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <img src="/placeholder.svg" alt="" id="modal-image">
+        <h3 id="modal-title"></h3>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
